@@ -1,0 +1,97 @@
+/* About Us Section Styling */
+.about-us {
+  background-color: white;
+  color: black;
+  padding: 60px 20px;
+}
+
+.container {
+  max-width:1200px;
+  margin: auto;
+  height:100%;
+}
+
+.about-us-heading {
+  text-align: center;
+  font-size: 36px;
+  color: skyblue;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.about-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-us-text {
+  max-width: 1200px;
+  font-size: 18px;
+  line-height: 1.6;
+  justify-content: baseline;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.about-us-text strong {
+  color: skyblue;
+}
+
+.about-us-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Icon Card Styling */
+.icon-card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.icon-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-icon {
+  font-size: 40px;
+  color: skyblue;
+  margin-bottom: 20px;
+}
+
+.icon-card h3 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.icon-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-us-icons {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-us-heading {
+    font-size: 32px;
+  }
+
+  .about-us-text {
+    font-size: 16px;
+  }
+}

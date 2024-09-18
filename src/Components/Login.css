@@ -1,0 +1,121 @@
+.mainContainer{
+    /*background-color:#1f19ba;*/
+    margin-top: 0%;
+    display: flex;
+    padding: auto;
+    height:700px;
+    width:auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top:30px;
+    background-color:aliceblue;
+    padding-bottom: 30px;
+    width:550px;
+    height:440px;
+    border-radius:9px;
+    overflow: hidden;
+}
+
+.loginheader{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:9px;
+    width:100%;
+    margin-top: 30px;
+}
+
+
+.text{
+    color:#1f19ba;
+    font-size:30px;
+    font-weight:700;
+}
+
+.underline{
+    width:61px;
+    height:6px;
+    background:#1f19ba;
+    border-radius: 9px;
+
+}
+
+
+.inputs{
+    margin-top:55px;
+    display:flex;
+    flex-direction:column;
+    gap: 25px;
+}
+
+.input{
+    display:flex;
+    align-items: center;
+    margin:auto;
+    width:430px;
+    height: 60px;
+    background: #eaeaea;
+}
+.input:hover{
+    border-color: #736fed;
+    border-radius:5px;
+    border-style:solid;
+}
+
+
+.input input{
+    height:50px;
+    width:400px;
+    background:transparent;
+    outline:none;
+    color: #797979;
+    font-size:19px; 
+    border:none;    
+   
+
+    
+}
+
+.input input::placeholder{
+    text-align: center;
+    font-size:19px;
+    font-weight: 700;
+    color: #1f19ba;
+}
+
+.submit-container{
+    display:flex;
+    gap:30px;
+    margin:60px auto;
+}
+
+.submit{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:220px;
+    height:59px;
+    color:#fff;
+    background:#1f19ba;
+    border-radius:50px;
+    font-size:15px;
+    font-weight:700;
+    cursor: pointer;
+}
+.LoginWtihGoogle button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:220px;
+    height:59px;
+    color:#fff;
+    border:none;
+    background:#1f19ba;
+    border-radius:50px;
+    font-size:15px;
+    font-weight:700;
+    cursor: pointer;
+}
